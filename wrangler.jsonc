@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "funkland",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-28",
+  "assets": {
+    "directory": "./uploads",
+    "binding": "ASSETS",
+    "not_found_handling": "none"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
